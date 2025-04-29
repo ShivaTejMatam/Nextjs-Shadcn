@@ -13,16 +13,18 @@ export default function ContentSection() {
               <Image
                 src="/lovepik-mobile-credit-card-payment-png-image_401699914_wh1200.png"
                 className="hidden rounded-[15px] dark:block"
-                alt="payments illustration dark"
+                alt="Payment system illustration - dark mode"
                 width={1207}
                 height={929}
+                priority
               />
               {/* <Image
                 src="/payments-light.png"
                 className="rounded-[15px] shadow dark:hidden"
-                alt="payments illustration light"
+                alt="Payment system illustration - light mode"
                 width={1207}
                 height={929}
+                priority
               /> */}
             </div>
           </div>
@@ -44,19 +46,19 @@ export default function ContentSection() {
               <blockquote className="border-l-4 pl-4">
                 <p>
                   Using TailsUI has been like unlocking a secret design
-                  superpower. It's the perfect fusion of simplicity and
+                  superpower. It&apos;s the perfect fusion of simplicity and
                   versatility, enabling us to create UIs that are as stunning as
                   they are user-friendly.
                 </p>
 
                 <div className="mt-6 space-y-3">
                   <cite className="block font-medium">John Doe, CEO</cite>
-                  <img
-                    className="h-5 w-fit dark:invert"
+                  <Image
                     src="https://html.tailus.io/blocks/customers/nvidia.svg"
                     alt="Nvidia Logo"
-                    height="20"
-                    width="auto"
+                    height={20}
+                    width={100}
+                    className="dark:invert"
                   />
                 </div>
               </blockquote>
